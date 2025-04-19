@@ -1,4 +1,5 @@
 from app.parsers.log_parser import parse_logs
+from app.detection.brute_force import detect_brute_force
 
 # testing the log parser
 
@@ -9,7 +10,8 @@ with open ("example_logs/ssh.log", "r") as f:
 # this is to parse the log file
 parsed_logs = parse_logs(raw_logs)
 
-# this is to print the parsed log file
-for log in parsed_logs:
-    print(log)
-
+incidents = detect_brute_force(parsed_logs)
+# this is to print the incidents
+for incident in incidents:
+    print(incident)
+# this is to print the raw log file

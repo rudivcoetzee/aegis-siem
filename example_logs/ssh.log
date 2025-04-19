@@ -1,0 +1,44 @@
+Apr 19 10:15:23 server1 sshd[12345]: Accepted password for alice from 192.168.1.10 port 54321 ssh2
+Apr 19 10:16:01 server1 sshd[12346]: Failed password for root from 203.0.113.5 port 41235 ssh2
+Apr 19 10:16:05 server1 sshd[12346]: Connection closed by authenticating user root 203.0.113.5 port 41235 [preauth]
+Apr 19 10:17:42 server1 sshd[12347]: Accepted publickey for bob from 10.0.0.2 port 60022 ssh2: RSA SHA256:xyz
+Apr 19 10:18:10 server1 sshd[12348]: Failed password for invalid user test from 198.51.100.7 port 33445 ssh2
+Apr 19 10:18:15 server1 sshd[12348]: Received disconnect from 198.51.100.7 port 33445:11: Bye Bye [preauth]
+Apr 19 10:19:30 server1 sshd[12349]: Accepted password for carol from 172.16.0.3 port 50210 ssh2
+Apr 19 10:20:01 server1 sshd[12350]: Failed password for root from 203.0.113.5 port 41236 ssh2
+Apr 19 10:21:12 server1 sshd[12351]: Accepted password for dave from 192.168.1.15 port 50123 ssh2
+Apr 19 10:22:45 server1 sshd[12352]: Failed password for admin from 203.0.113.8 port 41237 ssh2
+Apr 19 10:23:01 server1 sshd[12353]: Accepted publickey for eve from 10.0.0.3 port 60023 ssh2: RSA SHA256:abc
+Apr 19 10:23:30 server1 sshd[12354]: Failed password for invalid user guest from 198.51.100.8 port 33446 ssh2
+Apr 19 10:24:10 server1 sshd[12355]: Received disconnect from 198.51.100.8 port 33446:11: Disconnected [preauth]
+Apr 19 10:25:05 server1 sshd[12356]: Accepted password for frank from 172.16.0.4 port 50211 ssh2
+Apr 19 10:26:17 server1 sshd[12357]: Failed password for root from 203.0.113.5 port 41238 ssh2
+Apr 19 10:27:22 server1 sshd[12358]: Connection closed by authenticating user admin 203.0.113.8 port 41237 [preauth]
+Apr 19 10:28:33 server1 sshd[12359]: Accepted password for grace from 192.168.1.20 port 50124 ssh2
+Apr 19 10:29:44 server1 sshd[12360]: Failed password for invalid user test2 from 198.51.100.9 port 33447 ssh2
+Apr 19 10:30:12 server1 sshd[12361]: Accepted password for heidi from 172.16.0.5 port 50212 ssh2
+Apr 19 10:31:23 server1 sshd[12362]: Failed password for root from 203.0.113.5 port 41239 ssh2
+Apr 19 10:32:34 server1 sshd[12363]: Accepted publickey for ivan from 10.0.0.4 port 60024 ssh2: RSA SHA256:def
+Apr 19 10:33:45 server1 sshd[12364]: Failed password for invalid user demo from 198.51.100.10 port 33448 ssh2
+Apr 19 10:34:56 server1 sshd[12365]: Received disconnect from 198.51.100.10 port 33448:11: Session closed [preauth]
+Apr 19 10:35:07 server1 sshd[12366]: Accepted password for judy from 192.168.1.25 port 50125 ssh2
+Apr 19 10:36:18 server1 sshd[12367]: Failed password for admin from 203.0.113.8 port 41240 ssh2
+Apr 19 10:37:29 server1 sshd[12368]: Connection closed by authenticating user root 203.0.113.5 port 41239 [preauth]
+Apr 19 10:38:40 server1 sshd[12369]: Accepted password for mallory from 172.16.0.6 port 50213 ssh2
+Apr 19 10:39:51 server1 sshd[12370]: Failed password for invalid user guest2 from 198.51.100.11 port 33449 ssh2
+Apr 19 10:40:01 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:03 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:05 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:07 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:09 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:11 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:13 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:15 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:17 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:19 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:21 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:23 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:25 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:27 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:29 server1 sshd[12371]: Failed password for root from 203.0.113.99 port 41001 ssh2
+Apr 19 10:40:31 server1 sshd[12371]: Connection closed by authenticating user root 203.0.113.99 port 41001 [preauth]
