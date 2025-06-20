@@ -1,4 +1,4 @@
-# aegis SIEM
+# aegis SIEM Passion Project
 
 Python basedtool that parses logs and detects suspicious activity (e.g., brute-froce attacks).
 
